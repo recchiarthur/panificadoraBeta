@@ -5,46 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panificadora Beta</title>
+    <link rel="stylesheet" type="css" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
-        <img src="img/logo.png" alt="Logo Panificador Beta">
-        <nav>
-            <a>Sobre a Beta</a>
-            <a>Produtos</a>
-            <a>Contato</a>
+        <img src="img/logo.png" alt="Logo Panificador Beta" class="logo-cabecalho">
+        <nav class="nav-cabecalho">
+            <a class="itens-cabecalho" href="#titulo-quem-somos">Sobre a Beta</a>
+            <a class="itens-cabecalho" href="#titulo-produtos">Produtos</a>
+            <a class="itens-cabecalho" href="#titulo-contato">Contato</a>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="principal">
+        <section class="secao-um">
             <div class="textos-secao-um">
-                <h1>Panificadora Beta</h1>
-                <h2>Pão fresquinho a toda hora</h2>
-                <button>Confira nossos produtos</button>
+                <h1 class="titulo-secao-um">Panificadora Beta</h1>
+                <h2 class="subtitulo-secao-um">Pão fresquinho a toda hora</h2>
+                <button class="botao" href="#titulo-produtos">Confira nossos produtos</button>
             </div>
-            <img src="img/pao.png" alt="Pão">
+            <img class="img-pao" src="img/pao.png" alt="Pão">
         </section>
-        <section>
-            <h2>Quem somos?</h2>
+        <section class="secao-dois">
+            <h2 id="titulo-quem-somos">Quem somos?</h2>
             <div class="textos-secao-dois">
-                <p>A Panificadora Beta foi fundada em 1990, por Mário José Ramos.</p>
-                <p>Na época, ele já era um mestre em panificação e resolveu começar seu próprio negócio</p>
-                <p>Hoje empregamos mais de 40 funcionários nas nossas duas unidades!</p>
-                <p>Fomos eleitos como melhor panificadora de Curitiba segundo a Gazeta do Povo</p>
+                <p class="texto-quem-somos">A Panificadora Beta foi fundada em 1990, por Mário José Ramos.</p>
+                <p class="texto-quem-somos">Na época, ele já era um mestre em panificação e resolveu começar seu próprio negócio</p>
+                <p class="texto-quem-somos">Hoje empregamos mais de 40 funcionários nas nossas duas unidades!</p>
+                <p class="texto-quem-somos">Fomos eleitos como melhor panificadora de Curitiba segundo a Gazeta do Povo</p>
             </div>
         </section>
-        <section>
-            <h2>Produtos</h2>
-            <div>
-               <img src="img/pao_frances.jpg" alt="Pão Francês">
-               <h4>Pão Francês</h4>
-               <p>Nosso tradicional pão francês</p>
-               <p>Fornadas novas às 6:30, 10:00, 12:00 e 18:00</p> 
+        <section class="secao-tres">
+            <h2 id="titulo-produtos">Produtos</h2>
+            <div class="pao-frances">
+               <img class="img-produtos" src="img/pao_frances.jpg" alt="Pão Francês">
+               <h4 class="titulos-produtos">Pão Francês</h4>
+               <p class="descricoes-produtos">Nosso tradicional pão francês</p>
+            </div>
+            <div class="brioche">
+                <img class="img-produtos" src="img/brioche.jpg" alt="Brioche">
+                <h4 class="titulos-produtos">Brioche</h4>
+                <h5 class="subtitulo-produtos">NOVIDADE!</h5>
+                <p class="descricoes-produtos">Delicioso pão amanteigado tradicional da França</p>
+            </div>
+            <div class="bisnaga">
+                <img class="img-produtos" src="img/bisnaguinha.jpg" alt="Bisnaguinha">
+                <h4 class="titulos-produtos">Bisnaguinha</h4>
+                <p class="descricoes-produtos">O preferido da criançada!</p>
+            </div>
+            <div class="croissan\t">
+                <img class="img-produtos" src="img/croissant.jpg" alt="Croissant">
+                <h4 class="titulos-produtos">Croissant</h4>
+                <p class="descricoes-produtos">Um dos mais famosos da casa, folhado e muito apetitoso!</p>
+            </div>
+            <div class="chineque">
+                <img class="img-produtos" src="img/chineque.jpg" alt="Chineque">
+                <h4 class="titulos-produtos">Chineque</h4>
+                <p class="descricoes-produtos">Pão doce disponível em 3 opções: farofa, doce de leite e goiabada</p>
+            </div>
+            <div class="pao-chocolate">
+                <img class="img-produtos" src="img/pao_chocolate.jpg" alt="Pão de Chocolate">
+                <h4 class="titulos-produtos">Pão de Chocolate</h4>
+                <h5 class="subtitulos-produtos">NOVIDADE!</h5>
+                <p class="descricoes-produtos">Um saboroso pão de leite recheado com chocolate ao leite e com gotas de chocolate meio amargo</p>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <img class="logo-rodape" src="img/logo.png" alt="Logo Panificadora Beta">
+        <div class="contato">
+            <h2 id="titulo-contato">Contato</h2>
+            <img class="img-contatos" src="img/instagram.png" alt="Instagram">
+            <h3 class="contatos">@panificadorabeta</h3>
+            <img class="img-contatos" src="img/telefone.png" alt="telefone">
+            <h3 class="contatos">Unidade Centro: 3407-9845</h3>
+            <h3 class="contatos">Unidade Bigorrilho: 4523-8474</h3>
+            <img class="img-contatos" src="img/o-email.png" alt="Email">
+            <h3 class="contatos">contato@panificadorabeta.com</h3>
+        </div>
+        <p class="enderecos">R. Voluntários da Pátria, 262 - Centro, Curitiba - PR</p>
+        <p class="enderecos">R. Padre Agostinho, 2212 - Bigorrilho, Curitiba - PR</p>
     </footer>
 </body>
 </html>
