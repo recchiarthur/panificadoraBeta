@@ -20,6 +20,7 @@ body
     justify-content: space-around;
     align-items: center;
     padding: 24px;
+    background-color: saddlebrown;
 }
 
 .logo-cabecalho
@@ -48,7 +49,7 @@ body
 .principal
 {
     margin-bottom: 48px;
-    border-top: 0.4px solid rgb(64, 0, 124);
+    border-top: 0.4px solid rgb(29, 0, 56);
 }
 
 .secao-um
@@ -104,6 +105,7 @@ body
 
 .secao-dois
 {
+    border-top: solid 0.4px rgb(29, 0, 56);
     padding-top: 200px;
     display: flex;
     flex-direction: column;
@@ -131,4 +133,194 @@ body
     justify-content: space-between;
     align-items: center;
     line-height: 150px;
+}
+
+.secao-tres
+{
+    border-top: 0.4px solid rgb(29, 0, 56);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+#titulo-produtos
+{
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(64, 0, 124);
+}
+
+.pao-frances
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-produtos
+{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.titulos-produtos
+{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(64, 0, 124);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subtitulo-produtos
+{
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(64, 0, 124);
+}
+
+.descricoes-produtos
+{
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: rgb(29, 0, 56);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pao-chocolate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.croissant
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chineque
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bisnaga
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brioche
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape
+{
+    margin-top: 200px;
+    border-top: rgb(29, 0, 56) solid 0.4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(145, 78, 30);
+}
+
+.logo-rodape
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contato
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#titulo-contato
+{
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgb(64, 0, 124);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.img-contatos
+{
+    height: 100px;
+}
+
+.contatos
+{
+    color: rgb(29, 0, 56);
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+}
+
+.enderecos1
+{
+    color: rgb(29, 0, 56);
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+
+.enderecos2
+{
+    color: rgb(29, 0, 56);
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-self: flex-end;
+
 }
